@@ -1,0 +1,33 @@
+.oldPriceWrapper{
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  font-size: 14px;
+  color: #5A5A5A;
+  width: fit-content;
+  position: relative;
+  padding-left: 12px;
+}
+
+.oldPrice{
+  padding-top: 2px;
+  padding-left: 3px;
+}
+
+.roublSymbol{
+  background: url(./ruble.svg);
+  background-size: cover;
+  height: 11px;
+  width: 7px;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+.poloska{
+  height: 1px;
+  background: #5A5A5A;;
+  width: 92%;
+  position: absolute;
+  left: 10px;
+  top: 11px;
+}

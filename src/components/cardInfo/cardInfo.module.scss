@@ -1,0 +1,100 @@
+.info{
+  height: 108px;
+  background: #FFFFFF;
+  position: relative;
+  border-radius: 0 0 5px 5px;
+}
+
+.starIcon{
+  position: absolute;
+  height: 19px;
+  width: 14px;
+  top: 4px;
+  right: 17px;
+  background: url(./Exclude.svg);
+}
+.starIconChecked{
+  background: url(./Exclude-checked.svg);
+  position: absolute;
+  height: 19px;
+  width: 14px;
+  top: 4px;
+  right: 17px;
+}
+.starIconChecked:hover{
+  background: url(./Exclude-green.svg);
+}
+.starIcon:hover{
+  content: url(./Exclude-green.svg);
+}
+
+
+.deliveryIcon{
+  position: absolute;
+  background: url(./car.svg);
+  height: 15px;
+  width: 21px;
+  right: 45px;
+  top: 7px;
+}
+.deliveryIconChecked{
+  position: absolute;
+  background: url(./car-checked.svg);
+  height: 15px;
+  width: 21px;
+  right: 45px;
+  top: 7px;
+}
+.deliveryIconChecked:hover{
+  background: url(./car-green.svg);
+}
+.deliveryIcon:hover{
+  background: url(./car-green.svg);
+}
+
+
+
+.cardName{
+  padding-top: 8px;
+  padding-left: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+}
+
+.cityDate{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 14px 5px 0 12px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #8F8F8F;
+}
+
+@media (max-width: 320px) { 
+  .like{
+    right: 8px;
+  }
+  .starIcon{
+    right: 7px;
+  }
+  .starIconChecked{
+    right: 7px;
+  }
+  .deliveryIcon{
+    right: 25px;
+  }
+  .deliveryIconChecked{
+    right: 25px;
+  }
+  .cardName{
+    padding-left: 5px;
+    font-size: 12px;
+  }
+  .cityDate{
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 10px;
+  }
+}

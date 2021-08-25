@@ -1,0 +1,74 @@
+.wrapper{
+  height: 368px;
+  width: 224px;
+}
+.picture {
+  width: 224px;
+  height: 260px;
+  background: gray;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  background-image: url(https://source.unsplash.com/random);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.checked{
+  position: absolute;
+  width: 94px;
+  height: 24px;
+  background: rgba(44, 44, 44, 0.74);
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-size: 12px;
+  text-align: center;
+  line-height: 24px;
+  top: 12px;
+  left: 65px;
+}
+
+@media (max-width: 768px) { 
+  .wrapper{
+    height: auto;
+    width: auto;
+  }
+  .picture{
+      width: auto;
+      height: 220px;
+  }
+  .checked{
+    left: 50px;
+  }
+}
+
+@media (max-width: 480px) { 
+  .wrapper{
+    height: auto;
+    width: 224px;
+  }
+  .picture{
+      width: auto;
+      height: 220px;
+  }
+  .checked{
+    left: 65px;
+  }
+}
+
+@media (max-width: 320px) { 
+  .wrapper{
+    height: auto;
+    width: 155px;
+  }
+  .picture{
+    width: auto;
+    height: 190px;
+  }
+  .checked{
+    left: 35px;
+    width: 74px;
+    height: 19px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,47 @@
+.compare{
+  position: absolute;
+  right: 12px;
+  bottom: 74px;
+  height: 24px;
+  width: 24px;
+}
+
+.compareCheckbox{
+  display: none;
+}
+
+.compareIcon{
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  background: url(./sravnit.svg);
+}
+
+.compareIconChecked{
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  background: url(./sravnitNotFill.svg);
+}
+
+.compareIcon:hover{
+  content: url(./sravnit-green.svg);
+}
+
+.compareIcon::before{
+  content: "";
+}
+
+.compareCheckbox:checked + .compareIcon::before{
+  content: url(./sravnit-checked.svg);
+}
+
+.compareCheckbox:checked + .compareIcon:hover{
+  content: "";
+}
+
+@media (max-width: 768px) { 
+  .compare{
+    right: 6px;
+  }
+}

@@ -1,0 +1,48 @@
+.like{
+  position: absolute;
+  height: 19px;
+  width: 20px;
+  right: 14px;
+  bottom: 36px;
+}
+
+.likeIcon:hover{
+  content: url(./like-icon_green.svg);
+}
+
+.likeCheckbox{
+  display: none;
+}
+
+.likeIcon{
+  position: absolute;
+  height: 19px;
+  width: 20px;
+  background: url(./like-icon.svg);
+}
+
+.likeIconChecked{
+  position: absolute;
+  height: 19px;
+  width: 20px;
+  background: url(./like-iconNotFill.svg);
+}
+
+.likeIcon::before{
+  content: "";
+}
+
+.likeCheckbox:checked + .likeIcon::before{
+  content: url(./like-icon-checked.svg);
+}
+
+.likeCheckbox:checked + .likeIcon:hover{
+  content: "";
+}
+
+
+@media (max-width: 768px) { 
+  .like{
+    right: 8px;
+  }
+}

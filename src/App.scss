@@ -1,0 +1,93 @@
+
+.main{
+  padding-left: 15%;
+  position: relative;
+  width: 968px;
+}
+.description{
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 8px 0;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 968px;
+  grid-gap: 24px;
+}
+
+.showMore {
+  padding: 16px 0 37px 87%;
+}
+.text{
+  color: #00A0AB;
+}
+.expand{
+  height: 10px;
+  width: 10px;
+  content: url(./разворот.svg);
+  padding-left: 10px;
+}
+
+
+
+@media (max-width: 1100px) { 
+  .main{
+    padding-left: 60px;
+  }
+}
+@media (max-width: 1024px) { 
+  .main{
+    padding-left: 15px;
+  }
+}
+@media (max-width: 768px) { 
+  .main{
+    padding-left: 0;
+    width: 768px;
+  }
+  .App{
+    width: auto;
+    grid-gap: 5px;
+  }
+  .showMore{
+    padding-left: 83%;
+  }
+}
+@media (max-width: 480px) { 
+  .main{
+    padding-left: 0;
+    width: 480px;
+  }    
+  .App{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 0;
+    row-gap: 10px;
+    padding-left: 5px;
+  }
+  .showMore{
+    padding-left: 70%;
+  }
+  .description{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) { 
+  .main{
+    width: 320px;
+  }    
+  .App{
+  }
+  .showMore{
+    padding-left: 55%;
+  }
+  .description{
+    font-size: 15px;
+    padding-left: 5px;
+  }
+}

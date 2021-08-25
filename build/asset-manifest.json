@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.390d5a80.chunk.css",
+    "main.js": "/static/js/main.9a566652.chunk.js",
+    "main.js.map": "/static/js/main.9a566652.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eda4bb5a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eda4bb5a.js.map",
+    "static/js/2.f9faddf2.chunk.js": "/static/js/2.f9faddf2.chunk.js",
+    "static/js/2.f9faddf2.chunk.js.map": "/static/js/2.f9faddf2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.390d5a80.chunk.css.map": "/static/css/main.390d5a80.chunk.css.map",
+    "static/js/2.f9faddf2.chunk.js.LICENSE.txt": "/static/js/2.f9faddf2.chunk.js.LICENSE.txt",
+    "static/media/cardInfo.module.scss": "/static/media/car.71875ff6.svg",
+    "static/media/like.module.scss": "/static/media/like-icon_green.6f4e8e4c.svg",
+    "static/media/price.module.scss": "/static/media/ruble-price.e21c02e1.svg",
+    "static/media/oldPrice.module.scss": "/static/media/ruble.7918908a.svg",
+    "static/media/compare.module.scss": "/static/media/sravnitNotFill.ff24f33e.svg",
+    "static/media/App.scss": "/static/media/разворот.6edcdb16.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eda4bb5a.js",
+    "static/js/2.f9faddf2.chunk.js",
+    "static/css/main.390d5a80.chunk.css",
+    "static/js/main.9a566652.chunk.js"
+  ]
+}

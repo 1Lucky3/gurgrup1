@@ -1,0 +1,41 @@
+.sliderButtons{
+  width: 56px;
+  height: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 4px;
+  left: 84px;
+}
+
+.sliderButtons span{
+  height: 6px;
+  width: 6px;
+  background: #C4C4C4;
+  border: 1px solid #5A5A5A;
+  border-radius: 50%;
+}
+.sliderButtons .button2{
+  background: #00A0AB;
+}
+.button1:hover,.button2:hover,
+.button3:hover,.button4:hover{
+  background: green;
+}
+
+@media (max-width: 768px) { 
+  .sliderButtons{
+    left: 64px;
+  }
+}
+@media (max-width: 480px) { 
+  .sliderButtons{
+    left: 84px;
+  }
+}
+@media (max-width: 320px) { 
+  .sliderButtons{
+    left: 48px;
+  }
+}
